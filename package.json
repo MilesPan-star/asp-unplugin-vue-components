@@ -5,14 +5,15 @@
   "packageManager": "pnpm@9.14.2",
   "description": "Components auto importing for Vue",
   "author": "antfu <anthonyfu117@hotmail.com>",
+  "collaborators": [
+    "MilesPan-star"
+  ],
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/unplugin/unplugin-vue-components#readme",
+  "homepage": "https://github.com/MilesPan-star/asp-unplugin-vue-components#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unplugin/unplugin-vue-components.git"
+    "url": "https://github.com/MilesPan-star/asp-unplugin-vue-components"
   },
-  "bugs": "https://github.com/unplugin/unplugin-vue-components/issues",
   "exports": {
     ".": {
       "import": "./dist/index.js",
