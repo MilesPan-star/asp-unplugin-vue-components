@@ -1,7 +1,7 @@
 {
-  "name": "unplugin-vue-components",
+  "name": "asp-unplugin-vue-components",
   "type": "module",
-  "version": "0.27.5",
+  "version": "0.27.6",
   "packageManager": "pnpm@9.14.2",
   "description": "Components auto importing for Vue",
   "author": "antfu <anthonyfu117@hotmail.com>",
