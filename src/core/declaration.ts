@@ -50,7 +50,7 @@ function stringifyComponentInfo(filepath: string, { from: path, as: name, name: 
   const related = isAbsolute(path)
     ? `./${relative(dirname(filepath), path)}`
     : path
-  const entry = `typeof import('${slash(related)}')['${importName || 'default'}']`
+  const entry = `typeof import('${slash(related)}')['${importName || 'default'}']${importName?.startsWith('Asp') ? '[\'raw\']' : ''}`
   return [name, entry]
 }
 
